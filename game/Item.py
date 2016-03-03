@@ -1,10 +1,8 @@
 class Item(object):
-    ALL = []
-    glyph = ""
-    slot = None
-
     def __init__(self):
-        pass
+        ALL = []
+        glyph = ""
+        slot = None
 
     def on_equip(self):
         pass

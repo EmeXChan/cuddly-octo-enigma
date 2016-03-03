@@ -43,17 +43,17 @@ class Tile:
         self.illuminated = False
         self.glyph = ""
         self.items = []
-        self.creature = []
+        self.creature = None
         pass
 
-    '''def visible_glyph(self):
+    def visible_glyph(self):
         if self.creature:
-            # return self.creature.glyph
+            return self.creature.glyph
         elif self.items:
-            return self.items.glyph
+            return self.items[0].glyph
         else:
             return self.glyph
-    '''
+
     def on_enter(self):
         pass
 
